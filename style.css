@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f8f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-list-check {
+  font-size: 28px;
+  color: #00689d;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.addTask {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.addTodo {
+  padding: 8px;
+  background-color: #00689d;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+.addTodo:hover {
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.elementTodo {
+  list-style: none;
+  width: 100%;
+}
+
+.todoList li input[type="checkbox"]:checked + span {
+  background-color: green;
+}
+
+.removeTask {
+  background-color: #00689d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.removeTask:hover {
+  padding: 8px;
+  transition: 0.35s;
+}
